@@ -23,7 +23,7 @@ function NavBar () {
                         <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="#skills">Skills</a></li>
                         <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="#portfolio">Projects</a></li>
                         <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="#contact">Contact</a></li>
-                        <a href="https://www.resume.com/dashboard/resume/a1dbbd70-42a3-43fb-b7ba-18b37407ed87" target="_blank" rel="noopener noreferrer"><button  className="flex p-[10px] rounded-md text-[13px] font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] sm:hidden md:hidden lg:flex" type="button">Download Resume</button></a>
+                        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer"><button  className="flex p-[10px] rounded-md text-[13px] font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] sm:hidden md:hidden lg:flex" type="button">Download Resume</button></a>
                     </ul>
                     <div className={!nav ? 'fixed left-[-100%]' : 'fixed left-0 top-0 w-[40%] text-black mt-[76px] h-full bg-[#E4E4E4] shadow-md ease-in-out duration-500 sm:w-[80%] md:w-[40%] lg:hidden'}>
                         <ul className="uppercase w-full p-12 space-y-6">
